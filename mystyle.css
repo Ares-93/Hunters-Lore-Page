@@ -38,8 +38,23 @@ flex-wrap: wrap;
 color: #1F2937;
 padding: 20px;
 font-size: 36px;
-font-weight: ;
+margin-bottom: 50px;
+
 }
+
+.section3{
+    border: #00070f;
+    margin-top: 10px;
+    color: white;
+    background-color: #3882F6;
+    display: flex;
+    padding:20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:first baseline;
+    margin: 0;
+}
+
 .Quote{
     margin-left: auto;
 }
