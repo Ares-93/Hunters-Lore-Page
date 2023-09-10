@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    background-color: #00070f;
+    color: white;
+    justify-content: start;
+    padding: 10px;
+    margin: -8px;
+
+}
+
+.LogoBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtext{
+    margin-top: -17px;
+}
+.signup{
+    padding:5px;
+    margin: 1%;
+    
+}
+
+.SignUP{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+   border: 0;
+   border-radius: 20%;
+}
+
+.section2{
+margin-top: 10px;
+background-color: #E5E7EB; 
+display: flex;
+flex-wrap: wrap;
+color: #1F2937;
+padding: 20px;
+font-size: 36px;
+font-weight: ;
+}
+.Quote{
+    margin-left: auto;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-left: auto;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+.infoHead
+{display: flex;
+    justify-content: center;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ImgTxt{
+    display: flex;
+        
+}
+
+p{
+    color: rgb(33, 135, 182);
+    font-weight: bolder;
+}
+
+p1{
+    color: red;
+    font-weight: bolder;
+}
+
+p2{
+    color: rgba(16, 10, 99, 0.733);
+    font-weight: bolder;
+}
+
+p3{
+    color: rgb(0, 0, 7);
+    font-weight: bolder;
+}
