@@ -1,113 +1,93 @@
-.header{
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
     display: flex;
-    background-color: #00070f;
-    color: white;
-    justify-content: start;
-    padding: 10px;
-    margin: -8px;
-
+    flex-direction: column;
 }
 
-.LogoBox{
+.navbar{
     display: flex;
-    justify-content: space-between;
-}
-
-.subtext{
-    margin-top: -17px;
-}
-.signup{
-    padding:5px;
-    margin: 1%;
+    color: #F9FAF8;
+    background-color: black;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
     
 }
 
-.SignUP{
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-   border: 0;
-   border-radius: 20%;
-}
-
-.section2{
-margin-top: 10px;
-background-color: #E5E7EB; 
-display: flex;
-flex-wrap: wrap;
-color: #1F2937;
-padding: 20px;
-font-size: 36px;
-margin-bottom: 50px;
-
-}
-
-.section3{
-    border: #00070f;
-    margin-top: 10px;
-    color: white;
-    background-color: #3882F6;
-    display: flex;
-    padding:20px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:first baseline;
-    margin: 0;
-}
-
-.Quote{
-    margin-left: auto;
-}
-
-ul{
-    list-style: none;
-}
-a{
-    display: flex;
-    flex-direction: row;
+.header-links a{
     text-decoration: none;
-    color: white;
+    color: crimson;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
 }
-li{
+
+.header-links{
+    display: flex;
     margin-left: auto;
+    padding: 0px 100px 0px 0px;
 }
 
-img{
+
+.header-logo img{
     width: 100px;
-    height: auto;
+    height: 100px;
+    margin-right: auto;
+    
+  
 }
 
-.infoHead
-{display: flex;
+.HeroBox{
+    display: flex;
+    background-color: black;
+    color: crimson;
+    align-items: center;
     justify-content: center;
+    padding: 500px;
 }
-.container
-{
+
+.HeroText{
+    flex-basis: 400px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.ImgTxt{
-    display: flex;
-        
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
 }
 
-p{
-    color: rgb(33, 135, 182);
-    font-weight: bolder;
+.HeroText p{
+    font-family: 'roboto', 'arial';
+    opacity: 0.8;
+    font-size: 18px;
+
 }
 
-p1{
-    color: red;
-    font-weight: bolder;
+h1{
+font-size: 48px;
+font-weight: bolder;
+margin: 0;
 }
 
-p2{
-    color: rgba(16, 10, 99, 0.733);
-    font-weight: bolder;
+.HeroBox img{
+    width: 500px;
+    height: 250px;
 }
 
-p3{
-    color: rgb(0, 0, 7);
+.HeroBox button{
+    display: block;
+    width: 110px;
+    background-color: red;
+    color: black;
+    border-radius: 10%;
+    border-color: crimson;
     font-weight: bolder;
+    text-decoration: none;
 }
